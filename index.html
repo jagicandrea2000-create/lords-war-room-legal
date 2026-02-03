@@ -5,30 +5,39 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Lords War Room — Legal</title>
   <style>
-    body { font-family: Arial, sans-serif; padding: 28px; max-width: 900px; margin: 0 auto; line-height: 1.45; }
-    .card { background:#f7f7f7; border:1px solid #e6e6e6; border-radius:14px; padding:18px; }
-    a { color:#1a73e8; text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    h1 { margin-top:0; }
-    .muted { color:#666; font-size: 0.95rem; }
-    ul { padding-left: 18px; }
+    body { font-family: Arial, sans-serif; padding: 28px; max-width: 900px; margin: 0 auto; line-height: 1.55; background:#0b1020; color:#e9eefc; }
+    .brand { display:flex; align-items:center; gap:10px; margin-bottom: 14px; }
+    .badge { font-size:12px; letter-spacing:1px; padding:6px 10px; border-radius:999px; background: rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.14); }
+    .card { background: rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.12); border-radius:16px; padding:18px; }
+    h1 { margin: 0 0 6px 0; font-size: 22px; }
+    p { color: rgba(233,238,252,0.78); margin-top: 8px; }
+    .grid { display:grid; gap:12px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin-top: 14px; }
+    a.btn { display:block; text-decoration:none; color:#0b1020; font-weight:900; text-align:center; padding:14px 16px; border-radius:14px; background: #ffb347; }
+    a.btn.secondary { background: rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.18); color:#e9eefc; }
+    .muted { color: rgba(233,238,252,0.60); font-size: 0.95rem; margin-top: 12px; }
+    code { background: rgba(255,255,255,0.10); padding:2px 6px; border-radius:8px; }
   </style>
 </head>
 <body>
-  <h1>Lords War Room — Legal</h1>
-  <p class="muted">Last updated: 2026-02-03</p>
-
-  <div class="card">
-    <p>Please choose:</p>
-    <ul>
-      <li><a href="./terms.html">Terms of Service</a></li>
-      <li><a href="./privacy.html">Privacy Policy</a></li>
-    </ul>
+  <div class="brand">
+    <div class="badge">LORDS WAR ROOM</div>
+    <div class="badge">LEGAL</div>
   </div>
 
-  <p class="muted">
-    Lords War Room is a fan-made assistant app created by the community. It is not affiliated with, endorsed, or sponsored by IGG or Lords Mobile.
-    All trademarks belong to their respective owners.
-  </p>
+  <div class="card">
+    <h1>Legal</h1>
+    <p>
+      Here you can find the Terms of Service and Privacy Policy for <strong>Lords War Room</strong>.
+    </p>
+
+    <div class="grid">
+      <a class="btn" href="./terms.html">Terms of Service</a>
+      <a class="btn secondary" href="./privacy.html">Privacy Policy</a>
+    </div>
+
+    <p class="muted">
+      Support: <code>lordswarroom@gmail.com</code>
+    </p>
+  </div>
 </body>
 </html>
