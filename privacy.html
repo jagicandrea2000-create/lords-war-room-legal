@@ -4,27 +4,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Lords War Room — Privacy Policy</title>
-  <h2>Advertising</h2>
-<p>
-<strong>Currently, the app does not display ads.</strong>
-</p>
-
-<p>
-In the future, we may introduce ads in the free version of the app.
-If ads are added, we may use advertising partners such as
-<strong>Google AdMob (Google Mobile Ads)</strong>.
-</p>
-
-<ul>
-  <li>Advertising partners may use device identifiers (such as the Advertising ID) to show ads and measure performance.</li>
-  <li>Where required by law (EEA/UK), we will request consent before showing personalized ads.</li>
-  <li>Users may be offered non-personalized ads depending on region and settings.</li>
-</ul>
-
-<p class="muted">
-If ads are introduced, this Privacy Policy will be updated and users may receive an in-app notice.
-</p>
-
   <style>
     body { font-family: Arial, sans-serif; padding: 28px; max-width: 900px; margin: 0 auto; line-height: 1.55; }
     .top a { color:#1a73e8; text-decoration:none; }
@@ -32,6 +11,7 @@ If ads are introduced, this Privacy Policy will be updated and users may receive
     .card { background:#f7f7f7; border:1px solid #e6e6e6; border-radius:14px; padding:18px; }
     h1 { margin-top:0; }
     h2 { margin-top:26px; }
+    h3 { margin-top:18px; }
     .muted { color:#666; font-size: 0.95rem; }
     ul { padding-left: 18px; }
     code { background:#eee; padding:2px 6px; border-radius:8px; }
@@ -39,6 +19,7 @@ If ads are introduced, this Privacy Policy will be updated and users may receive
 </head>
 <body>
   <div class="top"><a href="./index.html">← Back to Legal</a></div>
+
   <h1>Privacy Policy</h1>
   <p class="muted">Last updated: 2026-02-03</p>
 
@@ -47,7 +28,8 @@ If ads are introduced, this Privacy Policy will be updated and users may receive
     <ul>
       <li>If you sign in with Google, we store basic account info (UID, email, display name, photo) to recognize you.</li>
       <li>We store your language preference.</li>
-      <li>Subscriptions/purchases are handled by Apple/Google; we use RevenueCat to verify entitlement status.</li>
+      <li>Purchases/subscriptions are handled by Apple/Google; we use RevenueCat to verify premium access.</li>
+      <li>Premium version is intended to be ad-free.</li>
       <li>We don’t sell your personal data.</li>
     </ul>
   </div>
@@ -62,8 +44,8 @@ If ads are introduced, this Privacy Policy will be updated and users may receive
 
   <h3>A) Account data (if you sign in)</h3>
   <p>
-    Reminder: sign-in is optional unless a feature requires it.
-    If you sign in via Google (Firebase Authentication), we may process and store:
+    Sign-in is optional unless a feature requires it. If you sign in via Google (Firebase Authentication),
+    we may process and store:
   </p>
   <ul>
     <li><strong>Firebase UID</strong> (unique user identifier)</li>
@@ -76,47 +58,53 @@ If ads are introduced, this Privacy Policy will be updated and users may receive
 
   <h3>B) App preferences</h3>
   <p>
-    We store your language selection locally on your device (e.g. SharedPreferences) to remember your preferred language.
+    We store your language selection locally on your device (e.g., SharedPreferences) to remember your preferred language.
   </p>
 
   <h3>C) Purchases / subscriptions</h3>
-  <p>
-    If you purchase a subscription or in-app product:
-  </p>
+  <p>If you purchase a subscription or in-app product:</p>
   <ul>
     <li>Payments are processed by <strong>Apple App Store</strong> or <strong>Google Play</strong>.</li>
     <li>We use <strong>RevenueCat</strong> to manage and verify subscription entitlement status (e.g. “premium active”).</li>
     <li>We do not receive your full payment card details.</li>
   </ul>
 
-  <h3>D) Analytics (only if enabled)</h3>
-  <p class="muted">
-    If you do NOT use analytics, you can keep this section as: “We do not use analytics.”  
-    If you DO use Firebase Analytics later, tell me and I’ll update this section to be store-safe.
+  <h3>D) Analytics and diagnostics</h3>
+  <p>
+    Currently, we do not use analytics or tracking tools for advertising purposes.
   </p>
   <p>
-    Currently: <strong>We do not use analytics to track you across apps/sites.</strong>
+    We may use diagnostics (such as crash reporting) in the future to improve app stability.
+    If enabled, such tools may collect technical information like device model, OS version, and crash logs.
+  </p>
+  <p class="muted">
+    If additional analytics or advertising tools are introduced, we will update this policy and request consent where required.
   </p>
 
   <h2>3) Why we process data (purposes)</h2>
   <ul>
     <li>To provide sign-in and account-related features.</li>
     <li>To store your settings (like language).</li>
-    <li>To verify subscription access and prevent entitlement errors.</li>
+    <li>To verify premium access and prevent entitlement errors.</li>
     <li>To provide support if you contact us.</li>
+    <li>To protect the app against abuse and keep it working reliably.</li>
   </ul>
 
   <h2>4) Legal bases (GDPR-friendly)</h2>
   <ul>
     <li><strong>Contract / service delivery:</strong> to provide app features you request (sign-in, premium access).</li>
     <li><strong>Legitimate interests:</strong> preventing abuse and ensuring the app works reliably.</li>
-    <li><strong>Consent:</strong> if we ever add optional analytics/marketing tools (you would be informed).</li>
+    <li><strong>Consent:</strong> if we ever add optional analytics/ads where consent is required.</li>
   </ul>
 
   <h2>5) Where data is stored</h2>
   <p>
-    Account-related data is stored in Google Firebase services (Authentication and Firestore).
-    Purchases are verified through RevenueCat, which may process purchase entitlement information.
+    Account-related data may be stored and processed using Google Firebase services (Authentication and Firestore).
+    Subscription status is verified via RevenueCat.
+  </p>
+  <p class="muted">
+    These providers may process data on servers outside your country, including the United States,
+    under appropriate safeguards.
   </p>
 
   <h2>6) Sharing of data</h2>
@@ -128,9 +116,26 @@ If ads are introduced, this Privacy Policy will be updated and users may receive
   </ul>
   <p><strong>We do not sell your personal data.</strong></p>
 
+  <h2>Advertising</h2>
+  <p><strong>Currently, the app does not display ads.</strong></p>
+  <p>
+    In the future, we may introduce ads in the free version of the app. Premium access is intended to be ad-free.
+    If ads are added, we may use advertising partners such as <strong>Google AdMob (Google Mobile Ads)</strong>.
+  </p>
+  <ul>
+    <li>Advertising partners may use device identifiers (such as the Advertising ID) to show ads and measure performance.</li>
+    <li>Where required by law (EEA/UK), we will request consent before showing personalized ads.</li>
+    <li>Users may receive non-personalized ads depending on region and settings.</li>
+  </ul>
+  <p class="muted">
+    If ads are introduced, this Privacy Policy will be updated and users may receive an in-app notice.
+  </p>
+
   <h2>7) Data retention</h2>
   <p>
-    We keep account data as long as needed to provide the service. If you stop using the app, data may remain unless you request deletion.
+    We keep account data as long as needed to provide the service.
+    If you stop using the app, data may remain stored unless you request deletion.
+    You can request account deletion at any time by contacting us.
   </p>
 
   <h2>8) Your rights</h2>
