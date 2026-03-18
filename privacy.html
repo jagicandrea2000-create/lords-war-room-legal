@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html> 
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -21,14 +21,16 @@
   <div class="top"><a href="./index.html">← Back to Legal</a></div>
 
   <h1>Privacy Policy</h1>
-  <p class="muted">Last updated: 2026-02-03</p>
+  <p class="muted">Last updated: 2026-03-18</p>
 
   <div class="card">
     <p><strong>Quick summary (human-readable):</strong></p>
     <ul>
       <li>If you sign in with Google, we store basic account info (UID, email, display name, photo) to recognize you.</li>
-      <li>We store your language preference.</li>
+      <li>We store your language preference and certain app preferences needed for app functionality.</li>
       <li>Purchases/subscriptions are handled by Apple/Google; we use RevenueCat to verify premium access.</li>
+      <li>We may use Firebase Remote Config to control app behavior, feature settings, and update-related prompts.</li>
+      <li>On Android, Google Play may provide in-app update functionality when a newer version is available.</li>
       <li>Premium version is intended to be ad-free.</li>
       <li>We don’t sell your personal data.</li>
     </ul>
@@ -59,6 +61,7 @@
   <h3>B) App preferences</h3>
   <p>
     We store your language selection locally on your device (e.g., SharedPreferences) to remember your preferred language.
+    We may also store limited local preference data related to app behavior, such as whether certain prompts were recently shown.
   </p>
 
   <h3>C) Purchases / subscriptions</h3>
@@ -69,7 +72,17 @@
     <li>We do not receive your full payment card details.</li>
   </ul>
 
-  <h3>D) Analytics and diagnostics</h3>
+  <h3>D) App configuration and update-related functionality</h3>
+  <p>
+    We may use <strong>Firebase Remote Config</strong> to deliver configuration values that control app behavior,
+    feature availability, app settings, and update-related prompts without requiring a full app release.
+  </p>
+  <p>
+    On Android, the app may use <strong>Google Play in-app update</strong> functionality to check whether a newer version
+    of the app is available and, if supported, prompt you to update through Google Play.
+  </p>
+
+  <h3>E) Analytics and diagnostics</h3>
   <p>
     Currently, we do not use analytics or tracking tools for advertising purposes.
   </p>
@@ -87,20 +100,22 @@
     <li>To store your settings (like language).</li>
     <li>To verify premium access and prevent entitlement errors.</li>
     <li>To validate daily feature limits and prevent abuse or fraud.</li>
+    <li>To configure app functionality and manage feature behavior.</li>
+    <li>To support update-related prompts and version management on Android.</li>
     <li>To provide support if you contact us.</li>
     <li>To protect the app against abuse and keep it working reliably.</li>
   </ul>
 
   <h2>4) Legal bases (GDPR-friendly)</h2>
   <ul>
-    <li><strong>Contract / service delivery:</strong> to provide app features you request (sign-in, premium access).</li>
-    <li><strong>Legitimate interests:</strong> preventing abuse and ensuring the app works reliably.</li>
+    <li><strong>Contract / service delivery:</strong> to provide app features you request (sign-in, premium access, feature configuration, update-related functionality).</li>
+    <li><strong>Legitimate interests:</strong> preventing abuse, managing app reliability, and ensuring the app works securely and as intended.</li>
     <li><strong>Consent:</strong> if we ever add optional analytics/ads where consent is required.</li>
   </ul>
 
   <h2>5) Where data is stored</h2>
   <p>
-    Account-related data may be stored and processed using Google Firebase services (Authentication and Firestore).
+    Account-related data may be stored and processed using Google Firebase services (such as Authentication, Firestore, and Remote Config).
     Subscription status is verified via RevenueCat.
   </p>
   <p class="muted">
@@ -115,9 +130,10 @@
   <h2>6) Sharing of data</h2>
   <p>We share data only with service providers necessary to run the app:</p>
   <ul>
-    <li><strong>Google Firebase</strong> (Authentication, Firestore)</li>
+    <li><strong>Google Firebase</strong> (such as Authentication, Firestore, and Remote Config)</li>
     <li><strong>RevenueCat</strong> (subscription entitlement verification)</li>
     <li><strong>Apple / Google</strong> (payment processing handled by the platform store)</li>
+    <li><strong>Google Play</strong> (Android in-app update functionality, where applicable)</li>
   </ul>
   <p><strong>We do not sell your personal data.</strong></p>
 
@@ -144,6 +160,9 @@
     If you stop using the app, data may remain stored unless you request deletion.
     You can request account deletion at any time by contacting us.
   </p>
+  <p>
+    Some local preference data stored on your device may remain until you clear the app data, uninstall the app, or reset the relevant settings.
+  </p>
 
   <h2>8) Your rights</h2>
   <p>
@@ -162,7 +181,7 @@
 
   <h2>10) Security</h2>
   <p>
-    We use reasonable safeguards and rely on trusted providers (Firebase/RevenueCat). No method of transmission or storage is 100% secure.
+    We use reasonable safeguards and rely on trusted providers (Firebase/RevenueCat/Google Play). No method of transmission or storage is 100% secure.
   </p>
 
   <h2>11) Changes to this policy</h2>
@@ -177,4 +196,3 @@
   </p>
 </body>
 </html>
-
