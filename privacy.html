@@ -21,7 +21,7 @@
   <div class="top"><a href="./index.html">← Back to Legal</a></div>
 
   <h1>Privacy Policy</h1>
-  <p class="muted">Last updated: 2026-03-18</p>
+  <p class="muted">Last updated: 2026-04-09</p>
 
   <div class="card">
     <p><strong>Quick summary (human-readable):</strong></p>
@@ -30,7 +30,7 @@
       <li>We store your language preference and certain app preferences needed for app functionality.</li>
       <li>Purchases/subscriptions are handled by Apple/Google; we use RevenueCat to verify premium access.</li>
       <li>We may use Firebase Remote Config to control app behavior, feature settings, and update-related prompts.</li>
-      <li>On Android, Google Play may provide in-app update functionality when a newer version is available.</li>
+      <li>We may send push notifications (via Firebase Cloud Messaging) about updates, features, or redemption codes. You can disable them anytime in your device settings.</li>
       <li>Premium version is intended to be ad-free.</li>
       <li>We don’t sell your personal data.</li>
     </ul>
@@ -61,7 +61,7 @@
   <h3>B) App preferences</h3>
   <p>
     We store your language selection locally on your device (e.g., SharedPreferences) to remember your preferred language.
-    We may also store limited local preference data related to app behavior, such as whether certain prompts were recently shown.
+    We may also store limited local preference data related to app behavior.
   </p>
 
   <h3>C) Purchases / subscriptions</h3>
@@ -79,33 +79,38 @@
   </p>
   <p>
     On Android, the app may use <strong>Google Play in-app update</strong> functionality to check whether a newer version
-    of the app is available and, if supported, prompt you to update through Google Play.
+    of the app is available and prompt you to update through Google Play.
   </p>
 
   <h3>E) Analytics and diagnostics</h3>
-<p>
-  We use <strong>Firebase Analytics</strong> to understand how users interact with the app
-  and to improve features and overall user experience.
-</p>
-<ul>
-  <li>Events such as feature usage, app interactions, and update prompts may be collected.</li>
-  <li>Analytics data may include device information (such as device model, OS version, and general location).</li>
-  <li>We do not use analytics to directly identify individual users.</li>
-</ul>
-
-<p>
-  We may also collect diagnostic data (such as crash logs) to improve app stability and performance.
-</p>
-
-<p>
-  Analytics collection is disabled by default and is only enabled after user consent where required by law (e.g. in the EEA/UK).
-</p>
   <p>
-    We may use diagnostics (such as crash reporting) in the future to improve app stability.
-    If enabled, such tools may collect technical information like device model, OS version, and crash logs.
+    We use <strong>Firebase Analytics</strong> to understand how users interact with the app
+    and to improve features and overall user experience.
   </p>
-  <p class="muted">
-    If additional analytics or advertising tools are introduced, we will update this policy and request consent where required.
+  <ul>
+    <li>Events such as feature usage, app interactions, and update prompts may be collected.</li>
+    <li>Analytics data may include device information (such as device model, OS version, and general location).</li>
+    <li>We do not use analytics to directly identify individual users.</li>
+  </ul>
+
+  <p>
+    We may also collect diagnostic data (such as crash logs) to improve app stability and performance.
+  </p>
+
+  <p>
+    Analytics collection is disabled by default and is only enabled after user consent where required by law (e.g. in the EEA/UK).
+  </p>
+
+  <h3>F) Push notifications</h3>
+  <p>
+    Our app may send push notifications using <strong>Firebase Cloud Messaging (FCM)</strong>
+    to inform you about updates, new content, or features such as redemption codes.
+  </p>
+  <p>
+    You can disable push notifications at any time through your device settings.
+  </p>
+  <p>
+    We do not use push notifications for advertising purposes.
   </p>
 
   <h2>3) Why we process data (purposes)</h2>
@@ -117,107 +122,81 @@
     <li>To configure app functionality and manage feature behavior.</li>
     <li>To support update-related prompts and version management on Android.</li>
     <li>To analyze app usage and improve features and performance.</li>
+    <li>To send service-related notifications (such as updates, feature announcements, or redemption codes).</li>
     <li>To provide support if you contact us.</li>
     <li>To protect the app against abuse and keep it working reliably.</li>
   </ul>
 
   <h2>4) Legal bases (GDPR-friendly)</h2>
   <ul>
-    <li><strong>Contract / service delivery:</strong> to provide app features you request (sign-in, premium access, feature configuration, update-related functionality).</li>
-    <li><strong>Legitimate interests:</strong> preventing abuse, managing app reliability, and ensuring the app works securely and as intended.</li>
-   <li><strong>Consent:</strong> for analytics and personalized advertising where required by law.</li>
+    <li><strong>Contract / service delivery:</strong> to provide app features you request.</li>
+    <li><strong>Legitimate interests:</strong> preventing abuse, managing app reliability, and ensuring the app works securely.</li>
+    <li><strong>Consent:</strong> for analytics and personalized advertising where required by law.</li>
   </ul>
 
   <h2>5) Where data is stored</h2>
   <p>
-    Account-related data may be stored and processed using Google Firebase services (such as Authentication, Firestore, and Remote Config).
+    Account-related data may be stored and processed using Google Firebase services.
     Subscription status is verified via RevenueCat.
   </p>
   <p class="muted">
     These providers may process data on servers outside your country, including the United States,
     under appropriate safeguards.
   </p>
-  <p>
-    We use Firebase App Check and server-side validation mechanisms
-    to help prevent abuse, fraud, and unauthorized access.
-  </p>
 
   <h2>6) Sharing of data</h2>
   <p>We share data only with service providers necessary to run the app:</p>
   <ul>
-    <li><strong>Google Firebase</strong> (such as Authentication, Firestore, Remote Config, and Analytics)</li>
+    <li><strong>Google Firebase</strong> (Authentication, Firestore, Remote Config, Analytics, FCM)</li>
     <li><strong>Google AdMob</strong> (advertising and measurement)</li>
     <li><strong>RevenueCat</strong> (subscription entitlement verification)</li>
-    <li><strong>Apple / Google</strong> (payment processing handled by the platform store)</li>
-    <li><strong>Google Play</strong> (Android in-app update functionality, where applicable)</li>
+    <li><strong>Apple / Google</strong> (payment processing)</li>
   </ul>
   <p><strong>We do not sell your personal data.</strong></p>
 
   <h2>Advertising</h2>
-<p>
-  The free version of the app may display advertisements using <strong>Google AdMob (Google Mobile Ads)</strong>.
-  Premium (War Pass) access is intended to provide an ad-free experience.
-</p>
-
-<ul>
-  <li>AdMob may collect and process data such as device identifiers (including the Advertising ID), IP address, and interaction data to serve and measure ads.</li>
-  <li>Ads may be personalized or non-personalized depending on user consent and region.</li>
-  <li>In regions such as the EEA/UK, we request user consent before showing personalized ads.</li>
-</ul>
-
-<p>
-  We use Google's <strong>User Messaging Platform (UMP)</strong> to display consent prompts and allow users to manage their privacy choices.
-</p>
-    If ads are added, we may use advertising partners such as <strong>Google AdMob (Google Mobile Ads)</strong>.
+  <p>
+    The free version of the app may display advertisements using <strong>Google AdMob</strong>.
+    Premium (War Pass) access is intended to provide an ad-free experience.
   </p>
   <ul>
-    <li>Advertising partners may use device identifiers (such as the Advertising ID) to show ads and measure performance.</li>
-    <li>Where required by law (EEA/UK), we will request consent before showing personalized ads.</li>
-    <li>Users may receive non-personalized ads depending on region and settings.</li>
+    <li>AdMob may collect data such as device identifiers, IP address, and interaction data.</li>
+    <li>Ads may be personalized or non-personalized depending on user consent.</li>
+    <li>In regions such as the EEA/UK, we request user consent before personalized ads.</li>
   </ul>
-  <p class="muted">
-    If ads are introduced, this Privacy Policy will be updated and users may receive an in-app notice.
-  </p>
 
   <h2>7) Data retention</h2>
   <p>
     We keep account data as long as needed to provide the service.
-    If you stop using the app, data may remain stored unless you request deletion.
-    You can request account deletion at any time by contacting us.
-  </p>
-  <p>
-    Some local preference data stored on your device may remain until you clear the app data, uninstall the app, or reset the relevant settings.
+    You can request deletion at any time.
   </p>
 
   <h2>8) Your rights</h2>
   <p>
-    Depending on where you live, you may have rights to access, correct, delete, or restrict processing of your data.
-    In the EU/EEA, you have GDPR rights including data access and deletion requests.
+    You may have rights to access, correct, or delete your data.
   </p>
   <p>
-    To request deletion or export, contact: <strong>lordswarroom@gmail.com</strong>
+    Contact: <strong>lordswarroom@gmail.com</strong>
   </p>
 
   <h2>9) Children</h2>
   <p>
-    The app is not intended for children under 13 (or under the age required in your country to consent to data processing).
-    If you believe a child has provided personal data, contact us and we will delete it.
+    The app is not intended for children under 13.
   </p>
 
   <h2>10) Security</h2>
   <p>
-    We use reasonable safeguards and rely on trusted providers (Firebase/RevenueCat/Google Play). No method of transmission or storage is 100% secure.
+    We use reasonable safeguards, but no system is 100% secure.
   </p>
 
   <h2>11) Changes to this policy</h2>
   <p>
-    We may update this Privacy Policy from time to time. The “Last updated” date reflects the latest version.
+    We may update this Privacy Policy from time to time.
   </p>
 
   <h2>12) Contact</h2>
   <p>
-    For privacy questions or deletion requests:
-    <br><strong>lordswarroom@gmail.com</strong>
+    <strong>lordswarroom@gmail.com</strong>
   </p>
 </body>
 </html>
